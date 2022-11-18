@@ -16,5 +16,6 @@ for (let i = 2; i < list.length; i++) {
     }
   }
   if (count === 2) result += list[i];
-  console.log(result);
+  
 }
+console.log(result);
