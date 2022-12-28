@@ -7,3 +7,5 @@
 
 let result = road.slice(0, road.indexOf(' km')) * 0.62
 console.log(+result.toFixed(1))
+
+console.log((Number.parseFloat(road) * 0.62).toFixed(1));
